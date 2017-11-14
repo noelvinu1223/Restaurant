@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ccf0487-051a-4ef2-82bd-61fe79b6cb69" name="Default" comment="" />
+    <list default="true" id="3ccf0487-051a-4ef2-82bd-61fe79b6cb69" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Restaurant.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/check.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/databaseDemo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/populateDatabase.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/query.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/GitHub-Mark-Light-64px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/customer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/customerinfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/feedbackinfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gueries2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/orders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ordersinfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/parking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/parkinginfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/queries.html" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,136 +80,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="query.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="259" column="5" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1510652888786" expanded="true" signature="245:265" ph="SELECT * FRO... branch" />
-                <marker date="1510652888786" expanded="true" signature="526:545" ph="SELECT * FRO... chefs" />
-                <marker date="1510652888786" expanded="true" signature="827:845" ph="SELECT * FRO... menu" />
-                <marker date="1510652888786" expanded="true" signature="1083:1103" ph="SELECT * FRO... server" />
-                <marker date="1510652888786" expanded="true" signature="1372:1394" ph="SELECT * FRO... customer" />
-                <marker date="1510652888786" expanded="true" signature="1675:1697" ph="SELECT * FRO... feedback" />
-                <marker date="1510652888786" expanded="true" signature="1943:1963" ph="SELECT * FRO... orders" />
-                <marker date="1510652888786" expanded="true" signature="2192:2206" ph="SELECT * FRO... orders" />
-                <marker date="1510652888786" expanded="true" signature="2192:2213" ph="SELECT * FRO... parking" />
-                <marker date="1510652888786" expanded="true" signature="2498:2564" ph="CREATE VIEW v1... " />
-                <marker date="1510652888786" expanded="true" signature="2498:2783" ph="SELECT DISTI... server" />
-                <marker date="1510652888786" expanded="true" signature="2530:2564" ph="SELECT * FRO... parking" />
-                <marker date="1510652888786" expanded="true" signature="2589:2655" ph="CREATE VIEW v2... " />
-                <marker date="1510652888786" expanded="true" signature="2589:2709" ph="CREATE VIEW v2... " />
-                <marker date="1510652888786" expanded="true" signature="2621:2655" ph="SELECT * FRO... parking" />
-                <marker date="1510652888786" expanded="true" signature="2689:2705" ph="SELECT* FROM... v1" />
-                <marker date="1510652888786" expanded="true" signature="2751:2767" ph="SELECT * FRO... v2" />
-                <marker date="1510652888786" expanded="true" signature="2924:3036" ph="SELECT DISTI... server" />
-                <marker date="1510652888786" expanded="true" signature="3193:3255" ph="select b.bra... branch" />
-                <marker date="1510652888786" expanded="true" signature="3193:3260" ph="select b.bra... branch" />
-                <marker date="1510652888786" expanded="true" signature="3193:3265" ph="select b.bra... branch" />
-                <marker date="1510652888786" expanded="true" signature="3193:3298" ph="select b.bra... branch" />
-                <marker date="1510652888786" expanded="true" signature="3193:3299" ph="SELECT b.bra... branch" />
-                <marker date="1510652888786" expanded="true" signature="3193:3315" ph="select b.bra... branch" />
-                <marker date="1510652888786" expanded="true" signature="3193:3351" ph="select b.bra... branch" />
-                <marker date="1510652888786" expanded="true" signature="3457:3588" ph="SELECT DISTI... chefs" />
-                <marker date="1510652888786" expanded="true" signature="3745:3940" ph="SELECT DISTI... server" />
-                <marker date="1510652888786" expanded="true" signature="4098:4256" ph="SELECT DISTI... branch" />
-                <marker date="1510652888786" expanded="true" signature="4414:4490" ph="SELECT DISTI... server" />
-                <marker date="1510652888786" expanded="true" signature="4638:4669" ph="CREATE VIEW IF... " />
-                <marker date="1510652888786" expanded="true" signature="4638:4861" ph="CREATE VIEW v5" />
-                <marker date="1510652888786" expanded="true" signature="4678:4861" ph="SELECT c.c_n... parking" />
-                <marker date="1510652888786" expanded="true" signature="4895:4911" ph="SELECT * FRO... v5" />
-                <marker date="1510652888786" expanded="true" signature="5074:5326" ph="SELECT count... customer" />
-                <marker date="1510652888786" expanded="true" signature="5475:5514" ph="CREATE VIEW IF... " />
-                <marker date="1510652888786" expanded="true" signature="5475:5657" ph="CREATE VIEW v6" />
-                <marker date="1510652888786" expanded="true" signature="5524:5657" ph="SELECT sum(p... menu" />
-                <marker date="1510652888786" expanded="true" signature="5691:5706" ph="SELECT * FRO... v5" />
-                <marker date="1510652888786" expanded="true" signature="5691:5707" ph="SELECT * FRO... v6" />
-                <marker date="1510652888786" expanded="true" signature="5864:6060" ph="SELECT DISTI... chefs" />
-                <marker date="1510652888786" expanded="true" signature="6177:6367" ph="CREATE TRIGG... customer_trigger" />
-                <marker date="1510652888786" expanded="true" signature="6272:6355" ph="INSERT INTO CUSTOMER_LOG... " />
-                <marker date="1510652888786" expanded="true" signature="6415:6416" ph="CREATE TRIGG... customer_trigger" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Restaurant.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Restaurant.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#68#0" expanded="true" />
-                <marker date="1510652888701" expanded="true" signature="2555:2567" ph="INSERT INTO C... " />
-                <marker date="1510652888701" expanded="true" signature="2555:2749" ph="INSERT INTO customer... " />
-                <marker date="1510652888701" expanded="true" signature="3588:3710" ph="INSERT INTO feedback... " />
-                <marker date="1510652888701" expanded="true" signature="4344:4393" ph="INSERT INTO orders... " />
-                <marker date="1510652888701" expanded="true" signature="5094:5275" ph="INSERT INTO parking... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populateDatabase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/populateDatabase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding>
-                <marker date="1509779856418" expanded="true" signature="377:426" ph="INSERT INTO branch... " />
-                <marker date="1509779856418" expanded="true" signature="449:490" ph="INSERT INTO branch... " />
-                <marker date="1509779856418" expanded="true" signature="972:1048" ph="INSERT INTO chefs... " />
-                <marker date="1509779856418" expanded="true" signature="1070:1146" ph="INSERT INTO chefs... " />
-                <marker date="1509779856418" expanded="true" signature="1168:1244" ph="INSERT INTO chefs... " />
-                <marker date="1509779856418" expanded="true" signature="1266:1344" ph="INSERT INTO chefs... " />
-                <marker date="1509779856418" expanded="true" signature="1366:1451" ph="INSERT INTO chefs... " />
-                <marker date="1509779856418" expanded="true" signature="1473:1552" ph="INSERT INTO chefs... " />
-                <marker date="1509779856418" expanded="true" signature="1856:1897" ph="INSERT INTO menu... " />
-                <marker date="1509779856418" expanded="true" signature="1919:1960" ph="INSERT INTO menu... " />
-                <marker date="1509779856418" expanded="true" signature="1982:2026" ph="INSERT INTO menu... " />
-                <marker date="1509779856418" expanded="true" signature="2110:2201" ph="INSERT INTO customer" />
-                <marker date="1509779856418" expanded="true" signature="2224:2315" ph="INSERT INTO customer" />
-                <marker date="1509779856418" expanded="true" signature="2340:2431" ph="INSERT INTO customer" />
-                <marker date="1509779856418" expanded="true" signature="2512:2548" ph="INSERT INTO orders... " />
-                <marker date="1509779856418" expanded="true" signature="2570:2607" ph="INSERT INTO orders... " />
-                <marker date="1509779856418" expanded="true" signature="2629:2666" ph="INSERT INTO orders... " />
-                <marker date="1509779856418" expanded="true" signature="2748:2806" ph="INSERT INTO parking... " />
-                <marker date="1509779856418" expanded="true" signature="2829:2891" ph="INSERT INTO parking... " />
-                <marker date="1509779856418" expanded="true" signature="2913:2975" ph="INSERT INTO parking... " />
-                <marker date="1509779856418" expanded="true" signature="3381:3448" ph="INSERT INTO server... " />
-                <marker date="1509779856418" expanded="true" signature="3472:3541" ph="INSERT INTO server... " />
-                <marker date="1509779856418" expanded="true" signature="3565:3634" ph="INSERT INTO server... " />
-                <marker date="1509779856418" expanded="true" signature="3658:3726" ph="INSERT INTO server... " />
-                <marker date="1509779856418" expanded="true" signature="3750:3818" ph="INSERT INTO server... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="databaseDemo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databaseDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding>
-                <marker date="1510652004746" expanded="true" signature="115:260" ph="CREATE TABLE... branch" />
-                <marker date="1510652004746" expanded="true" signature="304:600" ph="CREATE TABLE... chefs" />
-                <marker date="1510652004746" expanded="true" signature="643:742" ph="CREATE TABLE... menu" />
-                <marker date="1510652004746" expanded="true" signature="790:1096" ph="CREATE TABLE... server" />
-                <marker date="1510652004746" expanded="true" signature="1146:1494" ph="CREATE TABLE... customer" />
-                <marker date="1510652004746" expanded="true" signature="1540:1780" ph="CREATE TABLE... orders" />
-                <marker date="1510652004746" expanded="true" signature="1828:2152" ph="CREATE TABLE... parking" />
-                <marker date="1510652004746" expanded="true" signature="2203:2329" ph="CREATE TABLE... feedback" />
-                <marker date="1510652004746" expanded="true" signature="2386:2456" ph="CREATE TABLE... CUSTOMER_LOG" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -187,6 +99,9 @@
     <replaceStrings>
       <replace>sqlite_connection()</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -235,6 +150,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -258,6 +174,11 @@
             <path>
               <item name="Restaurant" type="b2602c69:ProjectViewProjectNode" />
               <item name="Restaurant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Restaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -402,15 +323,15 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19515885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19515885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31414473" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -748,9 +669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <marker date="1509550912139" expanded="true" signature="121:141" ph="SELECT * FRO... server" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -765,33 +684,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2460">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <marker date="1509779856418" expanded="true" signature="377:426" ph="INSERT INTO branch... " />
-            <marker date="1509779856418" expanded="true" signature="449:490" ph="INSERT INTO branch... " />
-            <marker date="1509779856418" expanded="true" signature="972:1048" ph="INSERT INTO chefs... " />
-            <marker date="1509779856418" expanded="true" signature="1070:1146" ph="INSERT INTO chefs... " />
-            <marker date="1509779856418" expanded="true" signature="1168:1244" ph="INSERT INTO chefs... " />
-            <marker date="1509779856418" expanded="true" signature="1266:1344" ph="INSERT INTO chefs... " />
-            <marker date="1509779856418" expanded="true" signature="1366:1451" ph="INSERT INTO chefs... " />
-            <marker date="1509779856418" expanded="true" signature="1473:1552" ph="INSERT INTO chefs... " />
-            <marker date="1509779856418" expanded="true" signature="1856:1897" ph="INSERT INTO menu... " />
-            <marker date="1509779856418" expanded="true" signature="1919:1960" ph="INSERT INTO menu... " />
-            <marker date="1509779856418" expanded="true" signature="1982:2026" ph="INSERT INTO menu... " />
-            <marker date="1509779856418" expanded="true" signature="2110:2201" ph="INSERT INTO customer" />
-            <marker date="1509779856418" expanded="true" signature="2224:2315" ph="INSERT INTO customer" />
-            <marker date="1509779856418" expanded="true" signature="2340:2431" ph="INSERT INTO customer" />
-            <marker date="1509779856418" expanded="true" signature="2512:2548" ph="INSERT INTO orders... " />
-            <marker date="1509779856418" expanded="true" signature="2570:2607" ph="INSERT INTO orders... " />
-            <marker date="1509779856418" expanded="true" signature="2629:2666" ph="INSERT INTO orders... " />
-            <marker date="1509779856418" expanded="true" signature="2748:2806" ph="INSERT INTO parking... " />
-            <marker date="1509779856418" expanded="true" signature="2829:2891" ph="INSERT INTO parking... " />
-            <marker date="1509779856418" expanded="true" signature="2913:2975" ph="INSERT INTO parking... " />
-            <marker date="1509779856418" expanded="true" signature="3381:3448" ph="INSERT INTO server... " />
-            <marker date="1509779856418" expanded="true" signature="3472:3541" ph="INSERT INTO server... " />
-            <marker date="1509779856418" expanded="true" signature="3565:3634" ph="INSERT INTO server... " />
-            <marker date="1509779856418" expanded="true" signature="3658:3726" ph="INSERT INTO server... " />
-            <marker date="1509779856418" expanded="true" signature="3750:3818" ph="INSERT INTO server... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -799,17 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <marker date="1510652004746" expanded="true" signature="115:260" ph="CREATE TABLE... branch" />
-            <marker date="1510652004746" expanded="true" signature="304:600" ph="CREATE TABLE... chefs" />
-            <marker date="1510652004746" expanded="true" signature="643:742" ph="CREATE TABLE... menu" />
-            <marker date="1510652004746" expanded="true" signature="790:1096" ph="CREATE TABLE... server" />
-            <marker date="1510652004746" expanded="true" signature="1146:1494" ph="CREATE TABLE... customer" />
-            <marker date="1510652004746" expanded="true" signature="1540:1780" ph="CREATE TABLE... orders" />
-            <marker date="1510652004746" expanded="true" signature="1828:2152" ph="CREATE TABLE... parking" />
-            <marker date="1510652004746" expanded="true" signature="2203:2329" ph="CREATE TABLE... feedback" />
-            <marker date="1510652004746" expanded="true" signature="2386:2456" ph="CREATE TABLE... CUSTOMER_LOG" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -824,52 +707,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="259" column="5" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1510652888786" expanded="true" signature="245:265" ph="SELECT * FRO... branch" />
-            <marker date="1510652888786" expanded="true" signature="526:545" ph="SELECT * FRO... chefs" />
-            <marker date="1510652888786" expanded="true" signature="827:845" ph="SELECT * FRO... menu" />
-            <marker date="1510652888786" expanded="true" signature="1083:1103" ph="SELECT * FRO... server" />
-            <marker date="1510652888786" expanded="true" signature="1372:1394" ph="SELECT * FRO... customer" />
-            <marker date="1510652888786" expanded="true" signature="1675:1697" ph="SELECT * FRO... feedback" />
-            <marker date="1510652888786" expanded="true" signature="1943:1963" ph="SELECT * FRO... orders" />
-            <marker date="1510652888786" expanded="true" signature="2192:2206" ph="SELECT * FRO... orders" />
-            <marker date="1510652888786" expanded="true" signature="2192:2213" ph="SELECT * FRO... parking" />
-            <marker date="1510652888786" expanded="true" signature="2498:2564" ph="CREATE VIEW v1... " />
-            <marker date="1510652888786" expanded="true" signature="2498:2783" ph="SELECT DISTI... server" />
-            <marker date="1510652888786" expanded="true" signature="2530:2564" ph="SELECT * FRO... parking" />
-            <marker date="1510652888786" expanded="true" signature="2589:2655" ph="CREATE VIEW v2... " />
-            <marker date="1510652888786" expanded="true" signature="2589:2709" ph="CREATE VIEW v2... " />
-            <marker date="1510652888786" expanded="true" signature="2621:2655" ph="SELECT * FRO... parking" />
-            <marker date="1510652888786" expanded="true" signature="2689:2705" ph="SELECT* FROM... v1" />
-            <marker date="1510652888786" expanded="true" signature="2751:2767" ph="SELECT * FRO... v2" />
-            <marker date="1510652888786" expanded="true" signature="2924:3036" ph="SELECT DISTI... server" />
-            <marker date="1510652888786" expanded="true" signature="3193:3255" ph="select b.bra... branch" />
-            <marker date="1510652888786" expanded="true" signature="3193:3260" ph="select b.bra... branch" />
-            <marker date="1510652888786" expanded="true" signature="3193:3265" ph="select b.bra... branch" />
-            <marker date="1510652888786" expanded="true" signature="3193:3298" ph="select b.bra... branch" />
-            <marker date="1510652888786" expanded="true" signature="3193:3299" ph="SELECT b.bra... branch" />
-            <marker date="1510652888786" expanded="true" signature="3193:3315" ph="select b.bra... branch" />
-            <marker date="1510652888786" expanded="true" signature="3193:3351" ph="select b.bra... branch" />
-            <marker date="1510652888786" expanded="true" signature="3457:3588" ph="SELECT DISTI... chefs" />
-            <marker date="1510652888786" expanded="true" signature="3745:3940" ph="SELECT DISTI... server" />
-            <marker date="1510652888786" expanded="true" signature="4098:4256" ph="SELECT DISTI... branch" />
-            <marker date="1510652888786" expanded="true" signature="4414:4490" ph="SELECT DISTI... server" />
-            <marker date="1510652888786" expanded="true" signature="4638:4669" ph="CREATE VIEW IF... " />
-            <marker date="1510652888786" expanded="true" signature="4638:4861" ph="CREATE VIEW v5" />
-            <marker date="1510652888786" expanded="true" signature="4678:4861" ph="SELECT c.c_n... parking" />
-            <marker date="1510652888786" expanded="true" signature="4895:4911" ph="SELECT * FRO... v5" />
-            <marker date="1510652888786" expanded="true" signature="5074:5326" ph="SELECT count... customer" />
-            <marker date="1510652888786" expanded="true" signature="5475:5514" ph="CREATE VIEW IF... " />
-            <marker date="1510652888786" expanded="true" signature="5475:5657" ph="CREATE VIEW v6" />
-            <marker date="1510652888786" expanded="true" signature="5524:5657" ph="SELECT sum(p... menu" />
-            <marker date="1510652888786" expanded="true" signature="5691:5706" ph="SELECT * FRO... v5" />
-            <marker date="1510652888786" expanded="true" signature="5691:5707" ph="SELECT * FRO... v6" />
-            <marker date="1510652888786" expanded="true" signature="5864:6060" ph="SELECT DISTI... chefs" />
-            <marker date="1510652888786" expanded="true" signature="6177:6367" ph="CREATE TRIGG... customer_trigger" />
-            <marker date="1510652888786" expanded="true" signature="6272:6355" ph="INSERT INTO CUSTOMER_LOG... " />
-            <marker date="1510652888786" expanded="true" signature="6415:6416" ph="CREATE TRIGG... customer_trigger" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,14 +722,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-            <marker date="1510652888701" expanded="true" signature="2555:2567" ph="INSERT INTO C... " />
-            <marker date="1510652888701" expanded="true" signature="2555:2749" ph="INSERT INTO customer... " />
-            <marker date="1510652888701" expanded="true" signature="3588:3710" ph="INSERT INTO feedback... " />
-            <marker date="1510652888701" expanded="true" signature="4344:4393" ph="INSERT INTO orders... " />
-            <marker date="1510652888701" expanded="true" signature="5094:5275" ph="INSERT INTO parking... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
