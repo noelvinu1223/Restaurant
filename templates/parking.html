@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Parking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body bgcolor="#f3e5f5">
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="" target="_blank">Noel Vinodh Joseph</a></li>
+        <li><a target="_blank">Anagha Iyengar</a></li>
+        <li><a target="_blank">Apoorva MR</a></li>
+        <li><a href="" target="_blank">Aishvarya Setty</a></li>
+    </ul>
+
+
+    <nav>
+        <div class="nav-wrapper  blue-grey darken-4">
+            <a href="" class="brand-logo">PARKING</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="{{ url_for('indexPage') }} ">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <form id="form3" action="" method="post">
+        <div class="row">
+
+            <div class="input-field col s6">
+
+                <input value="" id="vehicle_no" type="text" class="validate" required name="vn">
+                <label class="active" for="vehicle_no">Enter your vehicle no.</label>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="input-field col s6">
+                <select name="type1" form="form" required >
+                    <option value="" disabled selected></option>
+                    <option value="2">2 Wheeler</option>
+                    <option value="4">4 Wheeler</option>
+                </select>
+                <label>Enter the vehicle type</label>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="input-field col s6">
+
+                <input value="" id="branch_id" type="text" class="validate" required name="branchid">
+                <label class="active" for="branch_id">Enter your branch id</label>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="input-field col s6">
+
+                <input value="" id="customer_id" type="text" class="validate" required name="customerid">
+                <label class="active" for="customer_id">Enter your customer id</label>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="input-field col s6">
+
+                <input value="" id="time_in" type="text" class="validate" required name="timein">
+                <label class="active" for="time_in">Enter the time you parked</label>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="input-field col s6">
+
+                <input value="" id="time_out" type="text" class="validate" required name="timeout">
+                <label class="active" for="time_out">Enter the time you removed your vehicle</label>
+            </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" form="form3">Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </form>
+
+    <h5>Visit Again!</h5>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.parallax').parallax();
+            $(".dropdown-button").dropdown();
+            $('select').material_select();
+        });
+        $(document).ready(function () {
+            Materialize.updateTextFields();
+        });
+    </script>
+    </body>
+</html>
+
+
+

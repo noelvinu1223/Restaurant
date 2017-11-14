@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Orders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body background="res2.jpg">
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="" target="_blank">Noel Vinodh Joseph</a></li>
+    <li><a target="_blank">Anagha Iyengar</a></li>
+    <li><a target="_blank">Apoorva MR</a></li>
+    <li><a href="" target="_blank">Aishvarya Setty</a></li>
+</ul>
+
+
+<nav>
+    <div class="nav-wrapper  blue-grey darken-4">
+        <a href="" class="brand-logo">Orders</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="{{ url_for('indexPage') }}">Home</a></li>
+        </ul>
+    </div>
+</nav>
+
+<form id="form1" action="" method="post">
+<div class="row">
+     <i class="medium material-icons">confirmation_number</i>
+    <div class="input-field col s6">
+
+        <input value="" id="order_name" type="text" class="validate" required name="menu_id">
+        <label class="active" for="order_name">Enter your menu id</label>
+    </div>
+</div>
+
+
+<div class="row">
+    <i class="medium material-icons">face</i>
+    <div class="input-field col s6">
+
+        <input value="" id="cust_id" type="text" class="validate" required name="customer_id">
+        <label class="active" for="cust_id">Enter the customer id</label>
+    </div>
+</div>
+    <button class="btn waves-effect waves-light" type="submit" form="form1">Submit
+    <i class="material-icons right">send</i>
+</button>
+</form>
+
+<h5>Hope you enjoyed your food!</h5>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.parallax').parallax();
+        $(".dropdown-button").dropdown();
+        $('select').material_select();
+    });
+    $(document).ready(function () {
+        Materialize.updateTextFields();
+    });
+</script>
+</body>
+</html>
+
+
+

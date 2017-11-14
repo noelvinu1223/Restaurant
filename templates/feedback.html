@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Restaurant Database Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body bgcolor="#f3e5f5">
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="" target="_blank">Noel Vinodh Joseph</a></li>
+    <li><a target="_blank">Anagha Iyengar</a></li>
+    <li><a target="_blank">Apoorva MR</a></li>
+    <li><a href="" target="_blank">Aishvarya Setty</a></li>
+</ul>
+
+
+<nav>
+
+    <div class="nav-wrapper brown lighten-2">
+        <a href="" class="brand-logo">FEEDBACK</a>
+
+        <ul class="right hide-on-med-and-down">
+
+            <li><a href="{{ url_for('indexPage') }}">Home</a></li>
+
+        </ul>
+
+    </div>
+</nav>
+
+<form id="'form" action="" method="post">
+
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input value="" id="name" type="text" class="validate" required name="name">
+            <label class="active" for="name">Enter your name</label>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">mode_edit</i>
+            <input value="" id="comments" type="text" class="validate" required name="comments">
+            <label class="active" for="comments">Enter your comments</label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s6">
+            <select name="food" form="form" required>
+                <option value="" disabled selected></option>
+                <option value="YES">YES</option>
+                <option value="NO">NO</option>
+            </select>
+            <label>Was the food sattisfactory?</label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s6">
+            <select name="services" form="form" required>
+                <option value="" disabled selected></option>
+                <option value="YES">YES</option>
+                <option value="NO">NO</option>
+            </select>
+            <label>Was the service sattisfactory?</label>
+        </div>
+    </div>
+    <button class="btn waves-effect waves-light" type="submit" form="form">Submit
+        <i class="material-icons right">send</i>
+    </button>
+</form>
+
+
+<h3>Thanks for your feedback!</h3>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.parallax').parallax();
+        $(".dropdown-button").dropdown();
+        $('select').material_select();
+    });
+    $(document).ready(function () {
+        Materialize.updateTextFields();
+    });
+</script>
+</body>
+</html>
+
+
+

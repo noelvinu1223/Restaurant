@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>CustomerInfo</title>
+</head>
+<body>
+
+<h1>Customer Information</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>CustomerID</th>
+        <th>Customer Name</th>
+        <th>Phone</th>
+        <th>Table No</th>
+        <th>No Of Seats</th>
+        <th>Branch ID</th>
+        <th>Duration</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    {% for cus in info %}
+        <tr>
+            <td>{{ cus["cust_id"] }}</td>
+            <td>{{ cus["c_name"] }}</td>
+            <td>{{ cus["phone"] }}</td>
+            <td>{{ cus["table_no"] }}</td>
+            <td>{{ cus["no_of_seats"] }}</td>
+            <td>{{ cus["b_id"] }}</td>
+            <td>{{ cus["duration"] }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>

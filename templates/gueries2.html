@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Customer Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>Queries</title>
+</head>
+<body bgcolor="#f3e5f5">
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="" target="_blank">Noel Vinodh Joseph</a></li>
+    <li><a target="_blank">Anagha Iyengar</a></li>
+    <li><a target="_blank">Apoorva MR</a></li>
+    <li><a href="" target="_blank">Aishvarya Setty</a></li>
+</ul>
+
+<nav>
+
+    <div class="nav-wrapper  deep-orange">
+        <a href="" class="brand-logo">QUERIES</a>
+
+        <ul class="right hide-on-med-and-down">
+
+            <li><a href="{{ url_for('indexPage') }}">Home</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+
+
+
+
+<ul class="collapsible" data-collapsible="accordion">
+    <li>
+        <div class="collapsible-header ">First Query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Server who has served more than one plate of Gobi Manchurian</h4>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Server ID</th>
+                        <th>Table no</th>
+                        <th>Server name</th>
+                        <th>phone</th>
+                        <th>Salary</th>
+                        <th>Branch ID</th>
+                        <th>Absent</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for servers1 in serverinfo %}
+                        <tr>
+                            <td>{{ servers1["s_id"] }}</td>
+                            <td>{{ servers1["table_no"] }}</td>
+                            <td>{{ servers1["s_name"] }}</td>
+                            <td>{{ servers1["phone"] }}</td>
+                            <td>{{ servers1["salary"] }}</td>
+                            <td>{{ servers1["b_id"] }}
+                            <td>{{ servers1["absent"] }}</td>
+
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+            </div>
+        </div>
+
+    </li>
+    <li>
+        <div class="collapsible-header">Second query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header"> Third query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header"> Fourth query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header"> Fifth query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header"> Sixth query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header"> Seventh query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header">Eight query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header">Ninth query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+        <div class="collapsible-header">Tenth query</div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+</ul>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        $('.modal').modal();
+    });
+</script>
+
+</body>
+</html>

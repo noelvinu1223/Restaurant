@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Customer Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>Queries</title>
+</head>
+<body bgcolor="#f3e5f5">
+
+
+
+<nav>
+
+    <div class="nav-wrapper  deep-orange">
+        <a href="" class="brand-logo">QUERIES</a>
+
+        <ul class="right hide-on-med-and-down">
+
+            <li><a href="{{ url_for('indexPage') }}">Home</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+
+<ul class="collapsible" data-collapsible="accordion">
+
+    <li>
+        <div class="collapsible-header">First</div>
+        <div class="collapsible-body"><span>partition the parking table based on two or four wheelers</span><br><a
+                href="{{ url_for('query1') }}" class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+    <li>
+        <div class="collapsible-header">second</div>
+        <div class="collapsible-body"><span>retrieve the name of the server whose salary is more than that of the chef's salary</span><br><a
+                href="{{ url_for('query2') }}" class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+    <li>
+        <div class="collapsible-header">Third</div>
+        <div class="collapsible-body"><span>retrieve the name of the branch where mr.noel has visited with rating more than 3.</span><br><a
+                href="{{ url_for('query3') }}" class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+    <li>
+        <div class="collapsible-header">fourth</div>
+        <div class="collapsible-body"><span>4. Retrieve the name and salary of chefs who work in a restaurant which has more than 4 stars</span><br><a
+                href="{{ url_for('query4') }}" class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+    <li>
+        <div class="collapsible-header">fifth</div>
+        <div class="collapsible-body"><span>5.retrieve the name of the server who has served gobi manchurian</span><br><a
+                href="{{ url_for('query5') }}" class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+    <li>
+        <div class="collapsible-header">sixth</div>
+        <div class="collapsible-body"><span>6. Retrieve the branches name, capacity and rating where Chef Harish works</span><br><a
+                href="{{ url_for('query6') }}" class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+    <li>
+        <div class="collapsible-header">seventh</div>
+        <div class="collapsible-body"><span>7. Retrieve the branches name, capacity and rating where Chef Harish works </span><br><a
+                href="{{ url_for('query7') }}"  class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+      <li>
+        <div class="collapsible-header">eight</div>
+        <div class="collapsible-body"><span>8. Create a view of customers with name nd phone number who have parked their vehicles for more than 4 hours</span><br><a
+                href="{{ url_for('query8') }}"  class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+      <li>
+        <div class="collapsible-header">nineth</div>
+        <div class="collapsible-body"><span>9. Count the number of customers who have ordered Italian cuisine </span><br><a
+                href="{{ url_for('query9') }}"  class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+    <li>
+        <div class="collapsible-header">tenth</div>
+        <div class="collapsible-body"><span>10. Create a view of total bill of all customers  </span><br><a
+                href="{{ url_for('query10') }}"  class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+<li>
+        <div class="collapsible-header">eleventh</div>
+        <div class="collapsible-body"><span>11. Retrieve the chefs name who has served a customer more than twice</span><br><a
+                href="{{ url_for('query11') }}"  class="waves-effect waves-light btn">execute</a></div>
+
+    </li>
+
+</ul>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $('.collapsible').collapsible();
+    });
+
+
+    $('.fixed-action-btn').openFAB();
+    $('.fixed-action-btn').closeFAB();
+    $('.fixed-action-btn.toolbar').openToolbar();
+    $('.fixed-action-btn.toolbar').closeToolbar();
+
+
+</script>
+
+</body>
+</html>

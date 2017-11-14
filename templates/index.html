@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Restaurant Database Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="" target="_blank">Noel Vinodh Joseph</a></li>
+    <li><a target="_blank">Anagha Iyengar</a></li>
+    <li><a target="_blank">Apoorva MR</a></li>
+    <li><a href="" target="_blank">Aishvaryaa Setty</a></li>
+</ul>
+
+
+<nav>
+
+    <div class="nav-wrapper indigo lighten-2">
+        <a href="" class="brand-logo">THE RESTAURANT</a>
+
+        <ul class="right hide-on-med-and-down">
+
+            <li><a href="{{ url_for('customerinput') }} ">Customer</a></li>
+            <li><a href="{{ url_for('orderinput') }}">Orders</a></li>
+            <li><a href="{{ url_for('queries') }}">Queries</a></li>
+            <li><a href="{{ url_for('parkinginput') }}">Parking</a></li>
+            <li><a href="{{ url_for('feedbackinput') }}">Feedback</a></li>
+
+            <li><a class="dropdown-button" data-activates="dropdown1">Team Members
+                <i class="material-icons right ">arrow_drop_down</i></a></li>
+        </ul>
+
+    </div>
+</nav>
+
+
+<div class="parallax-container">
+    <div class="parallax"><img src="../static/res.jpg"></div>
+</div>
+
+
+<div class="section white">
+    <div class="row container">
+        <h2 class="header">Restaurant</h2>
+        <p class="grey-text text-darken-3 lighten-3">We provide wonderful service and a wide variety of cuisines
+            cooked only by some the best chefs in the world.. our servers are world class and have been trained to
+            perfection.
+            We have several branches so that u dont need to go too faar for the best food.</p>
+    </div>
+</div>
+
+
+<div class="parallax-container">
+    <div class="parallax"><img src="../static/res1.png"></div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Branches</h2>
+                <p class="grey-text text-darken-3 lighten-3">We serve in 10 of the top cities in the world..... All our
+                    Restaurats offer the same experience.</p>
+                <h4 class="header">Here is the list of places we serve in this wonderful city</h4>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Branch Id</th>
+                        <th>Branch Name</th>
+                        <th>No of Table</th>
+                        <th>Rating</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for branch in branchInfo %}
+                        <tr>
+                            <td>{{ branch["branch_id"] }}</td>
+                            <td>{{ branch["branch_name"] }}</td>
+                            <td>{{ branch["no_of_table"] }}</td>
+                            <td>{{ branch["rating"] }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="../static/res2.jpg"></div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Chefs</h2>
+                <h4 class="grey-text text-darken-3 lighten-3">top Quality Chefs</h4>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Chef ID</th>
+                        <th>Menu ID</th>
+                        <th>Chefs Name
+                        <th>Date of joining</th>
+                        <th>Branch ID</th>
+                        <th>Speciality</th>
+                        <th>Salary</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for chefs in chefinfo %}
+                        <tr>
+                            <td>{{ chefs["chef_id"] }}</td>
+                            <td>{{ chefs["menu_id"] }}</td>
+                            <td>{{ chefs["chefs_name"] }}</td>
+                            <td>{{ chefs["doj"] }}</td>
+                            <td>{{ chefs["b_id"] }}
+                            <td>{{ chefs["speciality"] }}</td>
+                            <td>{{ chefs["salary"] }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="../static/res3.jpg"></div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Menu</h2>
+                <h4 class="grey-text text-darken-3 lighten-3">food.....</h4>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Item Name</th>
+                        <th>Item Price</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for menu1 in menuinfo %}
+                        <tr>
+                            <td>{{ menu1["menu_id"] }}</td>
+                            <td>{{ menu1["name"] }}</td>
+                            <td>{{ menu1["price"] }}</td>
+
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="parallax-container">
+    <div class="parallax"><img src="../static/res6.jpg"></div>
+</div>
+
+
+<div class="parallax-container">
+    <div class="parallax">
+
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Servers</h2>
+                <p class="grey-text text-darken-3 lighten-3">top Quality Chefs</p>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Server ID</th>
+                        <th>Table no</th>
+                        <th>Server name</th>
+                        <th>phone</th>
+                        <th>Salary</th>
+                        <th>Branch ID</th>
+                        <th>Absent</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    {% for servers1 in serverinfo %}
+                        <tr>
+                            <td>{{ servers1["s_id"] }}</td>
+                            <td>{{ servers1["table_no"] }}</td>
+                            <td>{{ servers1["s_name"] }}</td>
+                            <td>{{ servers1["phone"] }}</td>
+                            <td>{{ servers1["salary"] }}</td>
+                            <td>{{ servers1["b_id"] }}
+                            <td>{{ servers1["absent"] }}</td>
+
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="../static/res4.jpg"></div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax">
+
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Parking</h2>
+                <p class="grey-text text-darken-3 lighten-3">top Quality Chefs</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="page-footer teal darken-4">
+    <div class="container ">
+        <div class="row">
+
+            <div class="input-field col s10">
+                <h5 class="white-text">About Us</h5>
+                <p class="grey-text text-lighten-4">This project is a collaboration of Rendered
+                    Ideas</p>
+            </div>
+            <div class="input-field col s2">
+                <a href="https://github.com/noelvinu1223/Restaurant" target="_blank">
+                    <img src="../static/GitHub-Mark-Light-64px.png">
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <h5> Check out more of our projects on our Github </h5>
+        </div>
+    </div>
+</footer>
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.parallax').parallax();
+        $(".dropdown-button").dropdown();
+        $('select').material_select();
+    });
+</script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Customer Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body bgcolor="#f3e5f5">
+
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="" target="_blank">Noel Vinodh Joseph</a></li>
+    <li><a target="_blank">Anagha Iyengar</a></li>
+    <li><a target="_blank">Apoorva MR</a></li>
+    <li><a href="" target="_blank">Aishvarya Setty</a></li>
+</ul>
+
+<nav>
+
+    <div class="nav-wrapper  red darken-4">
+        <a href="" class="brand-logo">Customer Input</a>
+
+        <ul class="right hide-on-med-and-down">
+
+            <li><a href="{{ url_for('indexPage') }}">Home</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<div class="row">
+    <form class="col s12" id="form" action="" method=post>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="name" type="text" class="validate" required name="customerName">
+                <label for="name">Customer Name</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="lc_id" type="text" class="validate" name="customerId">
+                <label for="c_id">C_ID</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="duration" type="text" class="validate" name="duration">
+                <label for="duration">duration</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="table no" type="text" class="validate" name="tableNo">
+                <label for="table no">table no</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="b_id" type="text" class="validate" name="branchId">
+                <label for="b_id">B_ID</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="no_of_seats" type="text" class="validate" name="Nos">
+                <label for="no_of_seats">no_of_seats</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="phone" type="text" class="validate" name="Phone">
+                <label for="phone">Phone</label>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+<button class="btn waves-effect waves-light" type="submit" form="form">Submit
+    <i class="material-icons right">send</i>
+</button>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>
