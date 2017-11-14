@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ccf0487-051a-4ef2-82bd-61fe79b6cb69" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Restaurant.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/check.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/databaseDemo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/populateDatabase.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/query.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restaurant.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/GitHub-Mark-Light-64px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/res6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/customer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/customerinfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/demo9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/feedback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/feedbackinfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gueries2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/orders.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ordersinfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/parking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/parkinginfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/queries.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Restaurant.iml" afterPath="$PROJECT_DIR$/.idea/Restaurant.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Restaurant.py" afterPath="$PROJECT_DIR$/app/Restaurant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/query.py" afterPath="$PROJECT_DIR$/app/query.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,10 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Restaurant$Restaurant.coverage" NAME="Restaurant Coverage Results" MODIFIED="1510652888902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Restaurant$Restaurant.coverage" NAME="Restaurant Coverage Results" MODIFIED="1510657183956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Restaurant$populateDatabase.coverage" NAME="populateDatabase Coverage Results" MODIFIED="1509779752372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Restaurant$check.coverage" NAME="check Coverage Results" MODIFIED="1509550970539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/templates" />
     <SUITE FILE_PATH="coverage/Restaurant$databaseDemo.coverage" NAME="databaseDemo Coverage Results" MODIFIED="1510644056770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Restaurant$Restaurant__1_.coverage" NAME="Restaurant (1) Coverage Results" MODIFIED="1510657250523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/Restaurant$check__1_.coverage" NAME="check (1) Coverage Results" MODIFIED="1509551121937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Restaurant$query.coverage" NAME="query Coverage Results" MODIFIED="1510652754941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -80,7 +45,66 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Restaurant.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Restaurant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+                <marker date="1510657213377" expanded="true" signature="2532:2726" ph="INSERT INTO customer... " />
+                <marker date="1510657213377" expanded="true" signature="3522:3644" ph="INSERT INTO feedback... " />
+                <marker date="1510657213377" expanded="true" signature="4235:4284" ph="INSERT INTO orders... " />
+                <marker date="1510657213377" expanded="true" signature="4942:5123" ph="INSERT INTO parking... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/query.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1510657250452" expanded="true" signature="215:235" ph="SELECT * FRO... branch" />
+                <marker date="1510657250452" expanded="true" signature="496:515" ph="SELECT * FRO... chefs" />
+                <marker date="1510657250452" expanded="true" signature="797:815" ph="SELECT * FRO... menu" />
+                <marker date="1510657250452" expanded="true" signature="1053:1073" ph="SELECT * FRO... server" />
+                <marker date="1510657250452" expanded="true" signature="1342:1364" ph="SELECT * FRO... customer" />
+                <marker date="1510657250452" expanded="true" signature="1645:1667" ph="SELECT * FRO... feedback" />
+                <marker date="1510657250452" expanded="true" signature="1913:1933" ph="SELECT * FRO... orders" />
+                <marker date="1510657250452" expanded="true" signature="2162:2183" ph="SELECT * FRO... parking" />
+                <marker date="1510657250452" expanded="true" signature="2468:2534" ph="CREATE VIEW v1" />
+                <marker date="1510657250452" expanded="true" signature="2500:2534" ph="SELECT * FRO... parking" />
+                <marker date="1510657250452" expanded="true" signature="2559:2625" ph="CREATE VIEW v2" />
+                <marker date="1510657250452" expanded="true" signature="2591:2625" ph="SELECT * FRO... parking" />
+                <marker date="1510657250452" expanded="true" signature="2659:2675" ph="SELECT * FRO... v1" />
+                <marker date="1510657250452" expanded="true" signature="2721:2737" ph="SELECT * FRO... v2" />
+                <marker date="1510657250452" expanded="true" signature="2894:3006" ph="SELECT DISTI... server" />
+                <marker date="1510657250452" expanded="true" signature="3163:3269" ph="SELECT b.bra... branch" />
+                <marker date="1510657250452" expanded="true" signature="3427:3558" ph="SELECT DISTI... chefs" />
+                <marker date="1510657250452" expanded="true" signature="3715:3910" ph="SELECT DISTI... server" />
+                <marker date="1510657250452" expanded="true" signature="4068:4226" ph="SELECT DISTI... branch" />
+                <marker date="1510657250452" expanded="true" signature="4384:4460" ph="SELECT DISTI... server" />
+                <marker date="1510657250452" expanded="true" signature="4608:4831" ph="CREATE VIEW v5" />
+                <marker date="1510657250452" expanded="true" signature="4648:4831" ph="SELECT c.c_n... parking" />
+                <marker date="1510657250452" expanded="true" signature="4865:4881" ph="SELECT * FRO... v5" />
+                <marker date="1510657250452" expanded="true" signature="5044:5296" ph="SELECT count... customer" />
+                <marker date="1510657250452" expanded="true" signature="5445:5627" ph="CREATE VIEW v6" />
+                <marker date="1510657250452" expanded="true" signature="5494:5627" ph="SELECT sum(p... menu" />
+                <marker date="1510657250452" expanded="true" signature="5661:5677" ph="SELECT * FRO... v6" />
+                <marker date="1510657250452" expanded="true" signature="5834:6030" ph="SELECT DISTI... chefs" />
+                <marker date="1510657250452" expanded="true" signature="6147:6337" ph="CREATE TRIGG... customer_trigger" />
+                <marker date="1510657250452" expanded="true" signature="6242:6325" ph="INSERT INTO CUSTOMER_LOG... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,6 +159,8 @@
         <option value="$PROJECT_DIR$/databaseDemo.py" />
         <option value="$PROJECT_DIR$/query.py" />
         <option value="$PROJECT_DIR$/Restaurant.py" />
+        <option value="$PROJECT_DIR$/app/Restaurant.py" />
+        <option value="$PROJECT_DIR$/app/query.py" />
       </list>
     </option>
   </component>
@@ -189,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -211,7 +237,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Restaurant">
+  <component name="RunManager" selected="Python.Restaurant (1)">
+    <configuration name="Restaurant (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Restaurant" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/Restaurant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="Restaurant" type="PythonConfigurationType" factoryName="Python" singleton="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,7 +292,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="gueries2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Restaurant/templates/gueries2.html" />
     <configuration name="populateDatabase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,18 +332,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Restaurant" />
       <item index="1" class="java.lang.String" itemvalue="Python.query" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.gueries2.html" />
-      <item index="3" class="java.lang.String" itemvalue="Python.populateDatabase" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.queries.html" />
-      <item index="5" class="java.lang.String" itemvalue="Python.databaseDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.populateDatabase" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.queries.html" />
+      <item index="4" class="java.lang.String" itemvalue="Python.databaseDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Restaurant (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.query" />
-        <item index="1" class="java.lang.String" itemvalue="Python.databaseDemo" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.queries.html" />
-        <item index="3" class="java.lang.String" itemvalue="Python.populateDatabase" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.gueries2.html" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Restaurant (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.query" />
+        <item index="2" class="java.lang.String" itemvalue="Python.databaseDemo" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.queries.html" />
+        <item index="4" class="java.lang.String" itemvalue="Python.populateDatabase" />
       </list>
     </recent_temporary>
   </component>
@@ -322,16 +365,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19515885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19515885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31414473" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -380,20 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4880">
-          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/feedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="77" column="6" lean-forward="false" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/queries.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -723,6 +753,60 @@
         <state relative-caret-position="162">
           <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Restaurant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+            <marker date="1510657213377" expanded="true" signature="2532:2726" ph="INSERT INTO customer... " />
+            <marker date="1510657213377" expanded="true" signature="3522:3644" ph="INSERT INTO feedback... " />
+            <marker date="1510657213377" expanded="true" signature="4235:4284" ph="INSERT INTO orders... " />
+            <marker date="1510657213377" expanded="true" signature="4942:5123" ph="INSERT INTO parking... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1510657250452" expanded="true" signature="215:235" ph="SELECT * FRO... branch" />
+            <marker date="1510657250452" expanded="true" signature="496:515" ph="SELECT * FRO... chefs" />
+            <marker date="1510657250452" expanded="true" signature="797:815" ph="SELECT * FRO... menu" />
+            <marker date="1510657250452" expanded="true" signature="1053:1073" ph="SELECT * FRO... server" />
+            <marker date="1510657250452" expanded="true" signature="1342:1364" ph="SELECT * FRO... customer" />
+            <marker date="1510657250452" expanded="true" signature="1645:1667" ph="SELECT * FRO... feedback" />
+            <marker date="1510657250452" expanded="true" signature="1913:1933" ph="SELECT * FRO... orders" />
+            <marker date="1510657250452" expanded="true" signature="2162:2183" ph="SELECT * FRO... parking" />
+            <marker date="1510657250452" expanded="true" signature="2468:2534" ph="CREATE VIEW v1" />
+            <marker date="1510657250452" expanded="true" signature="2500:2534" ph="SELECT * FRO... parking" />
+            <marker date="1510657250452" expanded="true" signature="2559:2625" ph="CREATE VIEW v2" />
+            <marker date="1510657250452" expanded="true" signature="2591:2625" ph="SELECT * FRO... parking" />
+            <marker date="1510657250452" expanded="true" signature="2659:2675" ph="SELECT * FRO... v1" />
+            <marker date="1510657250452" expanded="true" signature="2721:2737" ph="SELECT * FRO... v2" />
+            <marker date="1510657250452" expanded="true" signature="2894:3006" ph="SELECT DISTI... server" />
+            <marker date="1510657250452" expanded="true" signature="3163:3269" ph="SELECT b.bra... branch" />
+            <marker date="1510657250452" expanded="true" signature="3427:3558" ph="SELECT DISTI... chefs" />
+            <marker date="1510657250452" expanded="true" signature="3715:3910" ph="SELECT DISTI... server" />
+            <marker date="1510657250452" expanded="true" signature="4068:4226" ph="SELECT DISTI... branch" />
+            <marker date="1510657250452" expanded="true" signature="4384:4460" ph="SELECT DISTI... server" />
+            <marker date="1510657250452" expanded="true" signature="4608:4831" ph="CREATE VIEW v5" />
+            <marker date="1510657250452" expanded="true" signature="4648:4831" ph="SELECT c.c_n... parking" />
+            <marker date="1510657250452" expanded="true" signature="4865:4881" ph="SELECT * FRO... v5" />
+            <marker date="1510657250452" expanded="true" signature="5044:5296" ph="SELECT count... customer" />
+            <marker date="1510657250452" expanded="true" signature="5445:5627" ph="CREATE VIEW v6" />
+            <marker date="1510657250452" expanded="true" signature="5494:5627" ph="SELECT sum(p... menu" />
+            <marker date="1510657250452" expanded="true" signature="5661:5677" ph="SELECT * FRO... v6" />
+            <marker date="1510657250452" expanded="true" signature="5834:6030" ph="SELECT DISTI... chefs" />
+            <marker date="1510657250452" expanded="true" signature="6147:6337" ph="CREATE TRIGG... customer_trigger" />
+            <marker date="1510657250452" expanded="true" signature="6242:6325" ph="INSERT INTO CUSTOMER_LOG... " />
+          </folding>
         </state>
       </provider>
     </entry>

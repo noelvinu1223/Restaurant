@@ -5,7 +5,7 @@ import os
 def sqlite_connection():
     print(os.getcwd())
 
-    conn = sqlite3.connect('../PycharmProjects/Restaurant/restaurant.db')
+    conn = sqlite3.connect('restaurant.db')
     return conn
 
 

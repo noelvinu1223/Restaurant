@@ -3,7 +3,7 @@ import sqlite3
 
 app = Flask(__name__)
 from query import allbranch, allchefs, allmenu, allservers, ci, fi, oi, pi, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, \
-    q11, trigger
+    q11, trigger , sqlite_connection
 
 
 @app.route('/test')
@@ -103,7 +103,7 @@ def customerinput():
         nos = request.form.get("Nos", None)
         Phone = request.form.get("Phone", None)
 
-        conn = sqlite3.connect('../PycharmProjects/Restaurant/restaurant.db')
+        conn = sqlite_connection()
         conn.execute('''INSERT INTO customer (cust_id,
              c_name,
              phone,
@@ -134,7 +134,7 @@ def feedbackinfo():
         foodoption = request.form.get("food", None)
         serviceoption = request.form.get("services", None)
 
-        conn = sqlite3.connect('../PycharmProjects/Restaurant/restaurant.db')
+        conn = sqlite_connection()
         conn.execute('''INSERT INTO feedback (name,
              comments,
              food,
@@ -158,7 +158,7 @@ def orderinfo():
         mid = request.form.get("menu_id", None)
         cid = request.form.get("customer_id", None)
 
-        conn = sqlite3.connect('../PycharmProjects/Restaurant/restaurant.db')
+        conn = sqlite_connection()
         conn.execute('INSERT INTO orders (menu_id,cust_id) VALUES (?,?) ',
                      (mid, cid))
         conn.commit()
@@ -178,7 +178,7 @@ def parkinginput():
         ti = request.form.get("timein", None)
         to = request.form.get("timeout", None)
 
-        conn = sqlite3.connect('../PycharmProjects/Restaurant/restaurant.db')
+        conn = sqlite_connection()
         conn.execute('''INSERT INTO parking (vehicle_no,
              type,
              b_id,
